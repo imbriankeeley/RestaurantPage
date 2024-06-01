@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <button>Home</button>
+            <button>Menu</button>
+            <button>About</button>
+        </nav>
+    </header>
+    <div id="content"></div>
+</body>
+</html>
+
+<div class="flex flex-col justify-center bg-white">
+    <div
+      class="flex flex-col px-10 pt-10 pb-20 w-full bg-gray-800 border border-black border-solid max-md:px-5 max-md:max-w-full"
+    >
+      <div
+        class="flex gap-5 justify-between w-full text-center text-stone-400 max-md:flex-wrap max-md:max-w-full"
+      >
+        <div class="flex gap-4 text-5xl max-md:flex-wrap max-md:text-4xl">
+          <img
+            loading="lazy"
+            srcset="..."
+            class="shrink-0 w-20 aspect-square"
+          />
+          <div class="flex-auto my-auto max-md:text-4xl">Psion Cuisine</div>
+        </div>
+        <div
+          class="flex gap-5 items-center text-xl leading-8 max-md:flex-wrap max-md:max-w-full"
+        >
+          <div class="self-stretch my-auto">HOME</div>
+          <div class="self-stretch my-auto">ABOUT</div>
+          <div class="self-stretch my-auto">MENU</div>
+          <div class="flex-auto self-stretch my-auto">CONTACT</div>
+          <div
+            class="justify-center self-stretch px-5 py-3.5 text-2xl shadow-sm bg-zinc-800 rounded-[51px] max-md:px-5"
+          >
+            BOOK A TABLE
+          </div>
+        </div>
+      </div>
+      <div
+        class="self-center mt-32 mb-11 w-full max-w-[1178px] max-md:my-10 max-md:max-w-full"
+      >
+        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+          <div class="flex flex-col w-[46%] max-md:ml-0 max-md:w-full">
+            <div
+              class="flex flex-col grow mt-9 text-stone-400 max-md:mt-10 max-md:max-w-full"
+            >
+              <div
+                class="text-6xl leading-[83px] max-md:max-w-full max-md:text-4xl max-md:leading-[66px]"
+              >
+                Enjoy Our
+                <br />
+                Delicious Meal
+              </div>
+              <div class="mt-9 text-xl leading-8 max-md:max-w-full">
+                OUR FINE DINING WILL LEAVE YOU FULLY SATISFIED OR YOUR MEAL IS
+                COMPLETELY FREE
+              </div>
+              <div
+                class="justify-center self-start px-6 py-3.5 mt-9 text-3xl leading-10 text-center shadow-sm bg-zinc-800 rounded-[51px] max-md:px-5"
+              >
+                BOOK A TABLE
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col ml-5 w-[54%] max-md:ml-0 max-md:w-full">
+            <img
+              loading="lazy"
+              srcset="..."
+              class="grow w-full aspect-[1.52] max-md:mt-10 max-md:max-w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="div">
+    <div class="div-2">
+      <div class="div-3">
+        <div class="div-4">
+          <img
+            loading="lazy"
+            srcset="..."
+            class="img"
+          />
+          <div class="div-5">Psion Cuisine</div>
+        </div>
+        <div class="div-6">
+          <div class="div-7">HOME</div>
+          <div class="div-8">ABOUT</div>
+          <div class="div-9">MENU</div>
+          <div class="div-10">CONTACT</div>
+          <div class="div-11">BOOK A TABLE</div>
+        </div>
+      </div>
+      <div class="div-12">
+        <div class="div-13">
+          <div class="column">
+            <div class="div-14">
+              <div class="div-15">
+                Enjoy Our
+                <br />
+                Delicious Meal
+              </div>
+              <div class="div-16">
+                OUR FINE DINING WILL LEAVE YOU FULLY SATISFIED OR YOUR MEAL IS
+                COMPLETELY FREE
+              </div>
+              <div class="div-17">BOOK A TABLE</div>
+            </div>
+          </div>
+          <div class="column-2">
+            <img
+              loading="lazy"
+              srcset="..."
+              class="img-2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    .div {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .div-2 {
+      border-color: rgba(0, 0, 0, 1);
+      border-style: solid;
+      border-width: 1px;
+      background-color: var(--Primary, #2e313a);
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      padding: 40px 40px 80px;
+    }
+    @media (max-width: 991px) {
+      .div-2 {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+    }
+    .div-3 {
+      display: flex;
+      width: 100%;
+      gap: 20px;
+      color: var(--Secondary, #cca377);
+      font-weight: 400;
+      text-align: center;
+      justify-content: space-between;
+    }
+    @media (max-width: 991px) {
+      .div-3 {
+        max-width: 100%;
+        flex-wrap: wrap;
+      }
+    }
+    .div-4 {
+      display: flex;
+      gap: 17px;
+      font-size: 45px;
+    }
+    @media (max-width: 991px) {
+      .div-4 {
+        flex-wrap: wrap;
+        font-size: 40px;
+      }
+    }
+    .img {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 80px;
+    }
+    .div-5 {
+      font-family: Cinzel Decorative, sans-serif;
+      flex-grow: 1;
+      flex-basis: auto;
+      margin: auto 0;
+    }
+    @media (max-width: 991px) {
+      .div-5 {
+        font-size: 40px;
+      }
+    }
+    .div-6 {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 20px;
+      line-height: 150%;
+    }
+    @media (max-width: 991px) {
+      .div-6 {
+        max-width: 100%;
+        flex-wrap: wrap;
+      }
+    }
+    .div-7 {
+      font-family: Cinzel Decorative, sans-serif;
+      align-self: stretch;
+      margin: auto 0;
+    }
+    .div-8 {
+      font-family: Cinzel Decorative, sans-serif;
+      align-self: stretch;
+      margin: auto 0;
+    }
+    .div-9 {
+      font-family: Cinzel Decorative, sans-serif;
+      align-self: stretch;
+      margin: auto 0;
+    }
+    .div-10 {
+      font-family: Cinzel Decorative, sans-serif;
+      align-self: stretch;
+      flex-grow: 1;
+      flex-basis: auto;
+      margin: auto 0;
+    }
+    .div-11 {
+      justify-content: center;
+      border-radius: 51px;
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+      background-color: #27282c;
+      align-self: stretch;
+      padding: 14px 21px;
+      font: 22px Cinzel Decorative, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-11 {
+        padding: 0 20px;
+      }
+    }
+    .div-12 {
+      align-self: center;
+      width: 100%;
+      max-width: 1178px;
+      margin: 120px 0 42px;
+    }
+    @media (max-width: 991px) {
+      .div-12 {
+        max-width: 100%;
+        margin: 40px 0;
+      }
+    }
+    .div-13 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-13 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 46%;
+      margin-left: 0px;
+    }
+    @media (max-width: 991px) {
+      .column {
+        width: 100%;
+      }
+    }
+    .div-14 {
+      display: flex;
+      margin-top: 36px;
+      flex-grow: 1;
+      flex-direction: column;
+      color: var(--Secondary, #cca377);
+      font-weight: 400;
+    }
+    @media (max-width: 991px) {
+      .div-14 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+    .div-15 {
+      font: 55px/83px Cinzel Decorative, -apple-system, Roboto, Helvetica,
+        sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-15 {
+        max-width: 100%;
+        font-size: 40px;
+        line-height: 66px;
+      }
+    }
+    .div-16 {
+      margin-top: 34px;
+      font: 20px/30px Cinzel Decorative, -apple-system, Roboto, Helvetica,
+        sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-16 {
+        max-width: 100%;
+      }
+    }
+    .div-17 {
+      justify-content: center;
+      border-radius: 51px;
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+      background-color: #27282c;
+      align-self: start;
+      margin-top: 36px;
+      text-align: center;
+      padding: 14px 24px;
+      font: 30px/150% Cinzel Decorative, -apple-system, Roboto, Helvetica,
+        sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-17 {
+        padding: 0 20px;
+      }
+    }
+    .column-2 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 54%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-2 {
+        width: 100%;
+      }
+    }
+    .img-2 {
+      aspect-ratio: 1.52;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+      flex-grow: 1;
+    }
+    @media (max-width: 991px) {
+      .img-2 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+  </style>
+
